@@ -1,0 +1,369 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+.header{
+    background-color: #2C814D;
+    height: 100px;
+}
+
+h1.header{
+    text-align: center;
+    margin: 0%;
+    color: white;
+    padding-top: 30px;
+    
+}
+
+.navMenu{
+    background-color: rgb(0, 102, 51);
+    height: 50px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#navbar ul li {
+    padding: 10px;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+}
+#navbar ul li a {
+    text-decoration: none;
+    font-family: Arial;
+    padding: .2em 1em;
+    color: #fff;
+    font-size: 20px;
+}
+
+.jumbotron{
+    padding: 0%;
+    text-align: center;
+    margin: 0px;
+}
+
+#banner_title{
+    position: absolute;
+    left: 20px;
+    top: 180px;
+    color: #fff;
+    font-size: 2.8em;
+    white-space: nowrap;
+}
+
+#banner_subtitle{
+    position: absolute;
+    left: 45px;
+    top: 230px;
+    color: #fff;
+    font-size: 1.8em;
+}
+
+.container-fluid{
+    text-align: center;
+    color: white;
+    background-color: #fccf03;
+    width: 100%;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.grid-card {
+    background-color: #2C814D;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.tab-pane {
+    padding: 5%;
+    font-size: 16pt;
+}
+
+th, td {
+    vertical-align: top;
+    text-align: center;
+}
+
+th {
+display: table-cell;   
+}
+
+#acm_banner{
+    height: 80px;
+    background-color: #E9C225;
+    padding-top: 15px;
+}
+
+#acp_banner, h1{
+    text-align: center;
+    color: #fff;
+}
+
+#acm_body {
+    padding: 40px;
+    align-items: center;
+    background-color: #2B804D;
+}
+
+#acm_body img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
+}
+
+#acm_about {
+    padding: 40px;
+}
+
+#acm_about h1 {
+    text-align: center;
+    font-family: Roboto;
+    color: #2b804d;
+    font-weight: 500;
+    letter-spacing: -1.93899px;
+    padding-bottom: 20px;
+}
+
+#acm_about p {
+    display: contents;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.learn-to-code-header{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #2C814D;
+    color: #fff;
+    text-align: center;
+}
+
+.learn-to-code-header h2{
+    font-weight: bold;
+}
+
+#project{
+    height: 530px;
+}
+
+#goal{
+    height: 300px;
+}
+
+.goal_oriented_classes{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.goal_oriented_classes .td-img{
+    width: 20px;
+}
+
+.card{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 11px -4px rgba(0,0,0,0.75);
+    width: 98.5%
+}
+
+.card td{
+    text-align: start;
+}
+
+.goal_oriented_classes .class_num{
+    color: #1D85D0;
+}
+
+.class_desc{
+    text-align: start;
+}
+
+#td-java{
+    color: #8D5E5E;
+}
+
+#td-data{
+    color: #1E88E5;
+}
+
+#td-web{
+    color: #455A64;
+}
+
+#td-db{
+    color: #8F5CEC;
+}
+
+#td-sys_admin{
+    color: #FFC107;
+}
+
+#td-survey{
+    color: #8AC66A
+}
+
+.col-md-3{
+    padding: 0%;
+    background-color: #2C814D;
+    text-align: center;
+    margin: 0px 50px 0px 65px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.accreditation{
+    padding-top: 40px;
+    height: 600px;
+    color: #fff;
+    text-align: center;
+    background-color: #265182;
+}
+
+.accreditation #accredBy{
+    text-transform: uppercase;
+}
+
+#float{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    position: fixed;
+    z-index: 99;
+    right: 5%;
+    bottom: 6.5%;
+    display: none;
+    opacity: .80;
+}
+
+#float ion-icon {
+    height: 60px;
+    width: 60px;
+    color: #2c2c2c
+}
+
+.footer {
+    background: linear-gradient(0deg, rgba(63,63,63,1) 0%,rgba(75,75,75,1)100%);
+    position: absolute;
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.footer p{
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer a:active,.footer a:hover,.footer a:link,.footer a:visited{
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.padding{
+    padding-top: 35px;
+}
+
+.footImage{
+    margin-top: 25px;
+}
+
+#infoContainer{
+    border-left: 1px solid #fff;
+    margin-left: 25px;
+    height: 100%;
+}
+
+#social{
+    margin-right: 50px;
+}
+
+.footer ion-icon{
+    display: block;
+    margin-right: auto;
+    color: #fff;
+    font-size: 32px;
+    padding-left: 5px;
+}
+
+
+/*--== Pictures ==--*/
+.cmpsBanner{
+    width: 100%;
+    height: 250px;
+    display:inline-block;
+    position: relative;
+}
+
+.Selu{
+    float: left;
+    height: 100px;
+    width: 350px;
+}
+
+.SeluRight{
+    float: right;
+    height: 100px;
+    width: 350px;
+    opacity: 0.0;
+}
+
+.largerCard{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 11px -4px rgba(0,0,0,0.75);
+    width: 98.5%
+}
+
+#project{
+    height: 100%;
+}
+
+#projectClassDesc{
+    justify-content: space-between;
+}
+#projectClassDesc h6{
+    text-align: center;
+}
+
+#project .collapse {
+    background-color: #fff;
+}
+.card-header{ 
+    background-color: #2C814D;
+}
+.btn{ 
+    color: #fff;
+}
+.btn:hover{ 
+    color: #fff;
+}

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>SELU CS</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="indexSheet.css" rel="stylesheet">
+
+</head>
+
+<body data-spy="scroll" id="home" data-target=".navbar">
+	<nav class="navbar navbar-expand-sm sticky-top navbar-dark" style="background-color: rgb(0, 102, 51);">
+		<a class="navbar-brand" href="#">
+			<img src="assets/images/selu_logo.svg" alt="logo">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#home">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#acm">ACM</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#learn">Classes</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#accred">Accreditation</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="jumbotron">
+		<img class="cmpsBanner" src="assets/images/cs_building.png">
+		<h1 id="banner_title">Southeastern CS</h1>
+		<h2 id="banner_subtitle">Computer Science</h2>
+	</div>
+
+	<button id="float" onclick="backToTop()">
+		<ion-icon name="arrow-dropup-circle"></ion-icon>
+	</button>
+
+	<div class="row container-fluid" id="faculty">
+		<div class="col-md-4 col-sm-12">
+			<div class="grid-card">
+				<h3>2019 ACM Leaders</h3>
+				<table style="width:100%">
+					<tr>
+						<th>Position:</th>
+						<th>Name</th>
+					</tr>
+
+					<tr>
+						<td>Chair:</td>
+						<td>Jamie Peterson</td>
+					</tr>
+
+					<tr>
+						<td>Vice Chair:</td>
+						<td>Connor Vincent</td>
+					</tr>
+
+					<tr>
+						<td>Treasurer:</td>
+						<td>Lauren Pace</td>
+					</tr>
+
+
+					<tr>
+						<td>Secretary:</td>
+						<td>Ashlynn Martell</td>
+					</tr>
+
+
+					<tr>
+						<td>Ghost in the Shell:</td>
+						<td>Garth Kiepper</td>
+					</tr>
+
+				</table>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-12">
+			<div class="grid-card">
+				<h3>State Champions</h3>
+				<p>Over the past several years Southeastern Louisian University has been the Louisiana State Coding
+					Champions!</p>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-12">
+			<div class="grid-card">
+				<h3>Upcoming Events</h3>
+				<p>10/3-10/4 Fall Break</p>
+				<p>10/31 Halloween!</p>
+				<p>12/25 Christmas!</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="acm_banner" style="position: relative;">
+		<a id="acm" style="position: absolute; top: -96px; height: 100%;"></a>
+		<h1>ACM Club</h1>
+	</div>
+
+	<div id="acm_body">
+		<img src="assets/images/acm_tree.png">
+	</div>
+	<div id="acm_about">
+		<h1>About the ACM</h1>
+		<p>The Association for Computing Machinery (ACM) is an international learned society for computing. It was
+			founded in 1947, and is the world's largest scientific and educational computing society.The ACM is a
+			non-profit professional membership group, claiming nearly 100,000 student and professional members as of
+			2019. Its headquarters are in New York City.
+
+			The ACM is an umbrella organization for academic and scholarly interests in computer science. Its motto is
+			"Advancing Computing as a Science & Profession".</p>
+	</div>
+
+	<div class="learn-to-code-header">
+            <h2>The Network</h2>
+        </div>
+    <div id="project" class="goal_oriented_classes">
+			<div class="card">
+					<div id="projectClassDesc" class="row mx-auto">
+						<div class="col">
+								<table>
+										<tr>
+											<td>
+					
+												<p>Employers</p>
+												<p>DXC Technology,
+													Envoc,
+													GCR,
+													CGB,
+													and CGI.
+												</p>
+					
+											</td>
+											<td>
+												<p>Many employers look to Southeastern Louisiana University Graduates
+												since they develop a skillset rarely seen from the average university graduate.</p>
+												<p>Southeastern's hands-on approach to teaching software development gives them not only the coding expertise
+													required in the field, but also the fundamental values of working in a team to construct things no one could do alone.
+													These graduates are professionals in their fields, and ready to take on any task.
+												</p>
+											</td>
+										</tr>
+									</table>
+						</div>
+					</div>
+				</div>
+    </div>
+
+	<div class="learn-to-code-header" style="position: relative;">
+		<a id="learn" style="position: absolute; top: -96px; height: 100%;"></a>
+		<h2>Project Classes</h2>
+	</div>
+
+	<div id="project" class="goal_oriented_classes">
+			<div class="card">
+				<div id="projectClassDesc" class="row mx-auto">
+					<div class="col border-right">
+						<h3>Purpose</h3>
+						<hr>
+						<p>
+							Southeastern's computer science is one of the few programs that offer many real 
+							world ready courses. These courses are designed to get students familiar with the
+							AGILE design process. Students are allowed to choose their own client and projects
+							(excluding CMPS 383), and even their own desired technologies to use. Ultimately,
+							these courses are also designed to enhance the students ability to learn new 
+							technologies and adapt to working in sprints showing constant progress each iteration.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="largerCard">
+					<div id="accordContainer" class="col">
+							<div class="accordion" id="accordion">
+								<div id="projectClassTab">
+									<div class="card-header" id="headingOne" data-target="#collapseOne" data-toggle="collapse"
+										aria-expanded="true" aria-controls="collapseOne">
+										<h2 class="mb-0">
+											<button id="projectLink" class="btn btn-link" type="button" data-toggle="collapse"
+												data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												CMPS 285
+											</button>
+										</h2>
+									</div>
+									<div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+										data-parent="#accordion">
+										<div class="card-body">
+											<p>
+												285 is a student's first project class. Groups of 3-4 are chosen and are tasked
+												with creating a piece software. Expectations are not usually set too high for this
+												class, however, that should not stop you from working hard!
+											</p>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="card-header" id="headingTwo" data-target="#collapseTwo" data-toggle="collapse"
+									aria-expanded="true" aria-controls="collapseTwo">
+										<h2 class="mb-0">
+											<button class="btn btn-link" type="button" data-toggle="collapse"
+												data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+												CMPS 383
+											</button>
+										</h2>
+									</div>
+									<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+										data-parent="#accordion">
+										<div class="card-body">
+											<p>
+												383 is course that is overseen by Envoc a local software development company.
+												In this course the groups are chosen at random by the professor, and the project 
+												itself is given to the students by Envoc. Student can expect to work with 
+												ASP.NET, React, and Xamarin or React Native
+											</p>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="card-header" id="headingThree" data-target="#collapseThree" data-toggle="collapse"
+									aria-expanded="true" aria-controls="collapseThree">
+										<h2 class="mb-0">
+											<button class="btn btn-link" type="button" data-toggle="collapse"
+												data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+												CMPS 411
+											</button>
+										</h2>
+									</div>
+									<div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+										data-parent="#accordion">
+										<div class="card-body">
+											<p>
+												411 is typically a student's final project class. The course is setup the same way
+												as 285. However, since a student is usually around the senior level at this point 
+												the standards are way up, so work hard to impress the industry.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+			</div>
+			<div class="card">
+				<table>
+					<tr>
+						<td width="130px"><img width="120px" src="assets/images/microsoft.png" alt="microsoft"></td>
+						<td>
+							<p>Micrsoft Shops</p>
+							<p>C&#35, VB, Windows Server, .Net Core</p><img width="80px"
+								src="assets/images/microsoft_shop.png" alt="microsoft_shop">
+						</td>
+						<td>
+							<p class="proj_description" style="text-align: right;">In project based classes students get the oportunity to take part in projects that will build experience in technologies of local businesses.</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="card">
+				<table>
+					<tr>
+						<td>
+							<p class="proj_description" >In classes 285 and 411 one of the most common projects students choose to take on is the rappidly developing app market that we live in today.</p>
+						</td>
+						<td>
+							<p style="text-align: right; font-size: 1.25em;">Mobile Project Ready</p>
+							<p style="text-align: right">Android Java, iOS Swift, React Native
+								Microsoft Xamarin, Google Flutter</p>
+							<img align="right" width="210px" src="assets/images/mobile.png"
+								alt="microsoft_shop">
+						</td>
+						<td width="130px" align="center"><img width="120px" src="assets/images/app_store.png" alt="app store"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	<div class="learn-to-code-header">
+		<h2>Goal Oriented Classes</h2>
+	</div>
+	
+	<div class="row">
+		<div class="col-4">
+		  <div class="list-group" id="list-tab" role="tablist">
+			<a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="introtojava"><img class="td-img" src="assets/images/icons/java.svg">&nbsp;&nbsp;&nbsp;CMPS 161 Intro to Java</a>
+			<a class="list-group-item list-group-item-action" id="list-datastructures-list" data-toggle="list" href="#list-datastructures" role="tab" aria-controls="datastructures"><img class="td-img" src="assets/images/icons/data.svg">&nbsp;&nbsp;&nbsp;CMPS 390 Data Structures</a>
+			<a class="list-group-item list-group-item-action" id="list-webdevolpment-list" data-toggle="list" href="#list-webdevolpment" role="tab" aria-controls="webdevolpment"><img class="td-img" src="assets/images/icons/web.svg">&nbsp;&nbsp;&nbsp;CMPS 294 Internet Programming</a>
+			<a class="list-group-item list-group-item-action" id="list-systemadministration-list" data-toggle="list" href="#list-database" role="tab" aria-controls="database"><img class="td-img" src="assets/images/icons/database.svg">&nbsp;&nbsp;&nbsp;CMPS 439 Database Administration</a>
+			<a class="list-group-item list-group-item-action" id="list-systemadministration-list" data-toggle="list" href="#list-systemadministration" role="tab" aria-controls="systemadministration"><img class="td-img" src="assets/images/icons/linux.svg">&nbsp;&nbsp;&nbsp;CMPS 315 System Administration</a>
+			<a class="list-group-item list-group-item-action" id="list-survey-list" data-toggle="list" href="#list-survey" role="tab" aria-controls="survey"><img class="td-img" src="assets/images/icons/survey.svg">&nbsp;&nbsp;&nbsp;CMPS 401 Survey of Programming Languages</a>
+		  </div>
+		</div>
+		<div class="col-8" style="font-size:30px">
+		  <div class="tab-content" id="nav-tabContent">
+			<div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+This is an introductory java class that introduces the basic concepts of computer programming and algorithm devolpment. The fundementals learned here will 
+be importent throughout your entire programming career.
+Prerequisite: Registration in or prior credit for Mathematics 151 or 161
+			</div>
+			<div class="tab-pane fade" id="list-datastructures" role="tabpanel" aria-labelledby="list-datastructures-list">
+Data structures is one of the most fundemental computer science courses and involes the study of core algorithms. You will learn about sorting, searching, 
+hash tables, and trees. 
+Prerequisite: CMPS 257 or MATH 223, CMPS 280 and registration in of prior credit for CMPS 285
+			</div>
+			<div class="tab-pane fade" id="list-webdevolpment" role="tabpanel" aria-labelledby="list-webdevolpment-list">
+This course the basics of client and server web devolpment. HTML, CSS, and PHP scripting will all be introduced with the student expected to complete some 
+basic projects combining the three.
+Prerequisite: Computer Science 280
+			</div>
+			<div class="tab-pane fade" id="list-database" role="tabpanel" aria-labelledby="list-database-list">
+This course is a comprehensive study of database creation and administration. The student will cover the basics of SQL and database schema and is expected 
+to create a semester long database project with a partner. 
+Prerequisite: Computer Science 280
+			</div>
+			<div class="tab-pane fade" id="list-systemadministration" role="tabpanel" aria-labelledby="list-systemadministration-list">
+This course is an introduction to Linux system administration and will be benficial to anyone looking to go into the IT field. It covers importent topics 
+such as backups, access control, and ssh. It will also introduce Python scripting of linux commands.
+Prerequisite: Computer Science 285
+			</div>
+			<div class="tab-pane fade" id="list-survey" role="tabpanel" aria-labelledby="list-survey-list">
+This is a formal introduction to the analysis and design of programming languages. You will cover a wide variety of different programming languages and 
+the differences between them. 
+Prerequisite: Computer Science 390
+			</div>
+		  </div>
+		</div>
+	</div>
+	<div id="accred"></div>
+	<div class="accreditation">
+		<img class="cmpsBanner" src="assets/images/accreditation_banner.svg">
+		<h2 id="accredBy">Accredited By:</h2>
+		<h2>Computing Accreditation Commission</h2>
+		<h2>Accredited: 10/01/1999 - Present</h2>
+		<h2>By <span><a
+					href="http://main.abet.org/aps/AccreditedProgramsDetails.aspx?OrganizationID=261&ProgramIDs=">ABET</a></span>
+		</h2>
+	</div>
+	<div id="foot"></div>
+	<footer class="footer">
+		<div class="row padding">
+			<div class="col-xs-6">
+				<img class="footImage" height="120" width="200" src="assets/images/selu_logo.svg" alt="logo">
+			</div>
+			<div id="infoContainer" class="col-xs-6">
+				<div class="row">
+					<div class="col">
+						<div class="container">
+							<p>
+								Southeastern Louisiana University<br>
+								Hammond, Louisiana 70402<br>
+								1.800.222.7358
+							</p>
+							<a href="http://www.southeastern.edu/contact/index.html">Contact</a>
+							<br>
+							<a href="http://www.southeastern.edu/acad_research/depts/comp_sci/index.html">About Us</a>
+						</div>
+					</div>
+					<div class="col container">
+						<p>RESOURCES</p>
+						<ul>
+							<li><a href="http://www.southeastern.edu/apply/index.html">Apply</a></li>
+							<li><a href="http://www.southeastern.edu/admin/admissions/cost_aid/index.html">Cost, Aid, and Scholarships</a></li>
+							<li><a href="http://www.southeastern.edu/map/">Campus Map</a></li>
+							<li><a href="https://www.youtube.com/user/yangkuopao">CMPS 375 Projects</a></li>
+						</ul>						
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="social" class="row float-right">
+			<a target="_blank" href="https://www.linkedin.com/school/southeastern-louisiana-university/">
+				<ion-icon name="logo-linkedin"></ion-icon>
+			</a>
+			<a target="_blank" href="https://www.facebook.com/southeastern">
+				<ion-icon name="logo-facebook"></ion-icon>
+			</a>
+			<a target="_blank" href="https://twitter.com/oursoutheastern">
+				<ion-icon name="logo-twitter"></ion-icon>
+			</a>
+			<a target="_blank" href="https://www.instagram.com/oursoutheastern/">
+				<ion-icon name="logo-instagram"></ion-icon>
+			</a>
+			<a target="_blank" href="https://www.youtube.com/user/southeasternvideo">
+				<ion-icon name="logo-youtube"></ion-icon>
+			</a>
+		</div>
+	</footer>
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<!-- Social Media Icons https://github.com/ionic-team/ionicons-->
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+	<!-- Custom Scripts-->
+	<script src="./scripts/floatingButtonActions.js"></script>
+</body>
+</html>
